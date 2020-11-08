@@ -1,11 +1,8 @@
 # general_aqrnaseq
 a general AQRNAseq pipeline that can process both eukaryote and prokaryote RNAseq samples on unix clusters using slurm workload manager
 
-# Section 1 sequence level analyses
-
-####################################################################
+# Section 1: sequence level analyses
 #Step1: count the number of sequencing reads in original fastq files
-####################################################################
 #1. run the sequence counting submission shell script submit_seqcount.sh
 ./submit_seqcount.sh path_to_the_directory_containing_original_fastq_files/*fastq
 #example: ./submit_seqcount.sh /home/fastqbin/*fastq
@@ -16,9 +13,7 @@ head *count >raw_seq_count
 #3. format the counting results to tablulate summary
 ./format.pl raw_seq_count raw_seqcount_formatted
 
-############################################
 #Step2: Pear assembly and linker stripping
-############################################
 #1. submit pear assembly jobs
 ./submit_pear.sh path_to_the_directory_containing_original_sequencing_fastq_files/*1_sequence.fastq
 #example: ./submit_pear.sh /home/fastqbin/*1_sequence.fastq
