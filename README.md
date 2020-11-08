@@ -114,7 +114,7 @@ cat header seq17bpWithSeq.blast >seq17bpWithSeq.blasth
 
 ./overlaphash2.pl seq17bpWithSeq.blasth merged_count merged_miRNA_17bpPerfect_count
 
-# Section3: Genome wide analyses##
+# Section3: Genome wide analyses
 
 Step15: mapping unique reads to reference genome
 
