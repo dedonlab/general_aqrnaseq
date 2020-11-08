@@ -104,7 +104,7 @@ Step13: conclude counting results
 
 XXXX total sequences. Among them, XXXX unique sequences hit XXX RNA species of interest
 
-Step14: subset results to sequences belong to RNA species of interest hit only
+Step14: subset results to sequences belong to RNA species of interest only
 
 ./faToTable.pl seq.fa seq.tab
 
