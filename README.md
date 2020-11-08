@@ -96,7 +96,7 @@ Step11: count the number of non redundant sequences hitting RNA species of inter
 
 cut -f1 seq17b0.blast|sort -u|wc -l
 
-Step12: Count the number of sequences got a hit in blast
+Step12: Count the number of RNA genes got a hit in blast
 
 cut -f2 seq17b0.blast|sort -u|wc -l
 
