@@ -26,7 +26,7 @@ Step2: Pear assembly and linker stripping
 
 example: ./submit_pear.sh /home/fastqbin/*1_sequence.fastq
 
-2.2 extract assembled read counts from pear statistics output files and format them to tabulte summary
+2.2 extract assembled read counts from pear statistics output files and format them to tabular summary
 
 ./submit_pearCount.sh
 
