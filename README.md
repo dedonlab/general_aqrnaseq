@@ -132,7 +132,7 @@ Step16: Samtools reverted reverse strand sequences. So incorprated original read
 
 Step17:Annotate sequences
 
-17.1 annotate sequences within genes.  Grch38Gene.bed should be substitued to the gene boundary bed file of the correpsponding species
+17.1 annotate sequences within genes.  Grch38Gene.bed should be substitued to gene boundary bed file of the correpsponding species
 
 sbatch bedtools.sh
 
