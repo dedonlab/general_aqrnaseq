@@ -3,8 +3,11 @@ a general AQRNAseq pipeline that can process both eukaryote and prokaryote RNAse
 
 # Section 1: sequence level analyses
 Step1: count the number of sequencing reads in original fastq files
+
 1.1 run the sequence counting submission shell script submit_seqcount.sh
+
 ./submit_seqcount.sh path_to_the_directory_containing_original_fastq_files/*fastq
+
 example: ./submit_seqcount.sh /home/fastqbin/*fastq
 
 1.2 concatenate the counting results
