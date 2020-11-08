@@ -1,5 +1,5 @@
 # general_aqrnaseq
-a general AQRNAseq pipeline that can process both eukaryote and prokaryote RNAseq samples on unix clusters using slurm workload manager
+A general AQRNAseq pipeline that can process both eukaryote and prokaryote RNAseq samples on unix clusters using slurm workload manager
 
 Download AQRNAseqScriptsAndFiles.tgz. Then uncompress it by typing tar -xzvf AQRNAseqScriptsAndFiles.tgz 
 
