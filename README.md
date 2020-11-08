@@ -1,11 +1,7 @@
 # general_aqrnaseq
 a general AQRNAseq pipeline that can process both eukaryote and prokaryote RNAseq samples on unix clusters using slurm workload manager
 
-####################################
-####################################
-##Section 1 sequence level analyses##
-####################################
-####################################
+# Section 1 sequence level analyses
 
 ####################################################################
 #Step1: count the number of sequencing reads in original fastq files
