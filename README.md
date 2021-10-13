@@ -50,7 +50,7 @@ Step4: select sequences with the correct length. For miRNA, inserts with length 
 
 ./submit_len20_30.sh
 
-4.2 Count the number of seqeunces with length 20bp-30bp and format the counts to tabular summary
+4.2 Count the number of sequences with length 20bp-30bp and format the counts to tabular summary
 
 ./submit_seqcount20_30bp.sh
 
