@@ -44,7 +44,7 @@ Step3: trim 2 random nucleotides added at 3 prime of the inserts
 
 ./submit_seqcount_trim3p2N.sh
 
-Step4: select seqeunces with the correct length. For miRNA, inserts with length 20-30bp are selected allowing nuclutide additions at both ends
+Step4: select sequences with the correct length. For miRNA, inserts with length 20-30bp are selected allowing nuclutide additions at both ends
 
 4.1 run  slength selection scripts
 
