@@ -96,11 +96,11 @@ Step10: select blast hits 17bp or longer
 
 Step11: count the number of non redundant sequences hitting RNA species of interest
 
-cut -f1 seq17b0.blast|sort -u|wc -l
+cut -f1 seq17bp.blast|sort -u|wc -l
 
 Step12: Count the number of RNA genes got a hit in blast
 
-cut -f2 seq17b0.blast|sort -u|wc -l
+cut -f2 seq17bp.blast|sort -u|wc -l
 
 Step13: conclude counting results
 
